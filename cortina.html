@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Template de Cortina</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Author" content="Gabriel Augusto - gab.augusto@gmail.com" />
+  <meta http-equiv="description" content="Nulla vehicula ex at est lobortis faucibus. Phasellus a tincidunt lorem. Nullam et malesuada metus. Phasellus dapibus consequat magna, ac scelerisque lorem rutrum at." />
+  <meta http-equiv="keywords" content="Nulla vehicula ex at est lobortis faucibus. Phasellus a tincidunt lorem. Nullam et malesuada metus. Phasellus dapibus consequat magna, ac scelerisque lorem rutrum at." />
+  <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1" />
+  <meta name="robots" content=" index,follow" />
+  <meta name="theme-color" content="#212121" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+  <link rel="icon" href="images/favicon.png" type="image/png" size="20x20" />
+  <link href="assets/css/estilos-cortina.css" rel="stylesheet" />
+</head>
+<body>
+
+<div class="menu_sup" id="menuSuperior">
+</div>
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="menu-simples.html">Menu Simples</a>
+    <a href="cortina.html">Cortina</a>
+    <a href="mega-menu.html">Mega Menu</a>
+    <a href="#">Vazio</a>
+  </div>
+</div>
+
+<h2>Exemplo de Fullscreen Overlay</h2>
+<p>Clique no elemento Click  abaixo para ver o efeito.</p>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Abrir</span>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+     
+</body>
+</html>
