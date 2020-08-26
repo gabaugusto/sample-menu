@@ -1,4 +1,4 @@
-# sample-menu / Exemplo de Menu
+# Sample Menus / Exemplo de Menu
 Sample of Responsive Menus for any purposes. For Classrooms 
 
 Exemplos de Menu Responsivos para usos diversos. Usado em salas de aula. 
